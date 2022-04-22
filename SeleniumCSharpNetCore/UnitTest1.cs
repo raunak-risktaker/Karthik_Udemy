@@ -17,7 +17,6 @@ namespace SeleniumCSharpNetCore
             options.AddArguments("disable-infobars");
             Driver = new ChromeDriver(@"../../../../SeleniumCSharpNetCore/Driver",options);
             Driver.Manage().Window.Maximize();
-            Thread.Sleep(5000);
         }
 
         [Test]
