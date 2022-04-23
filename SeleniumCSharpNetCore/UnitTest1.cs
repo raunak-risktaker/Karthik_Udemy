@@ -3,6 +3,8 @@ using System.Threading;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using WebDriverManager;
+using WebDriverManager.DriverConfigs.Impl;
 
 namespace SeleniumCSharpNetCore
 {
@@ -14,6 +16,8 @@ namespace SeleniumCSharpNetCore
         public void Setup()
         {
             options = new ChromeOptions();
+            options.AddArguments("--headless");
+            new DriverManager().SetUpDriver(new ChromeConfig());
             options.AddArguments("disable-infobars");
             Driver = new ChromeDriver(@"../../../../SeleniumCSharpNetCore/Driver",options);
             Driver.Manage().Window.Maximize();

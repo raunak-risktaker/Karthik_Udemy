@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Raunak\\source\\repos\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj": {}
+    "C:\\Users\\Raunak\\Documents\\GitHub\\Karthik_Udemy\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Raunak\\source\\repos\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj": {
+    "C:\\Users\\Raunak\\Documents\\GitHub\\Karthik_Udemy\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Raunak\\source\\repos\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
+        "projectUniqueName": "C:\\Users\\Raunak\\Documents\\GitHub\\Karthik_Udemy\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
         "projectName": "SeleniumCSharpNetCore",
-        "projectPath": "C:\\Users\\Raunak\\source\\repos\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
+        "projectPath": "C:\\Users\\Raunak\\Documents\\GitHub\\Karthik_Udemy\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore.csproj",
         "packagesPath": "C:\\Users\\Raunak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Raunak\\source\\repos\\SeleniumCSharpNetCore\\SeleniumCSharpNetCore\\obj\\",
+        "outputPath": "C:\\Users\\Raunak\\Documents\\GitHub\\Karthik_Udemy\\SeleniumCSharpNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Raunak\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,6 +59,10 @@
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
               "version": "[100.0.4896.6000, )"
+            },
+            "WebDriverManager": {
+              "target": "Package",
+              "version": "[2.12.4, )"
             },
             "coverlet.collector": {
               "target": "Package",
