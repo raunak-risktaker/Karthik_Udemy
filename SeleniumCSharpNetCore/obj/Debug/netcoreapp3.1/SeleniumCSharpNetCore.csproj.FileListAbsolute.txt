@@ -110,3 +110,13 @@ C:\Users\Raunak\Documents\GitHub\Karthik_Udemy\SeleniumCSharpNetCore\obj\Debug\n
 C:\Users\Raunak\Documents\GitHub\Karthik_Udemy\SeleniumCSharpNetCore\obj\Debug\netcoreapp3.1\SeleniumCSharpNetCore.dll
 C:\Users\Raunak\Documents\GitHub\Karthik_Udemy\SeleniumCSharpNetCore\obj\Debug\netcoreapp3.1\SeleniumCSharpNetCore.pdb
 C:\Users\Raunak\Documents\GitHub\Karthik_Udemy\SeleniumCSharpNetCore\obj\Debug\netcoreapp3.1\SeleniumCSharpNetCore.genruntimeconfig.cache
+C:\Users\Raunak\Documents\GitHub\Karthik_Udemy\SeleniumCSharpNetCore\bin\Debug\netcoreapp3.1\BoDi.dll
+C:\Users\Raunak\Documents\GitHub\Karthik_Udemy\SeleniumCSharpNetCore\bin\Debug\netcoreapp3.1\Gherkin.dll
+C:\Users\Raunak\Documents\GitHub\Karthik_Udemy\SeleniumCSharpNetCore\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Raunak\Documents\GitHub\Karthik_Udemy\SeleniumCSharpNetCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Raunak\Documents\GitHub\Karthik_Udemy\SeleniumCSharpNetCore\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.dll
+C:\Users\Raunak\Documents\GitHub\Karthik_Udemy\SeleniumCSharpNetCore\bin\Debug\netcoreapp3.1\SpecFlow.Internal.Json.dll
+C:\Users\Raunak\Documents\GitHub\Karthik_Udemy\SeleniumCSharpNetCore\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Raunak\Documents\GitHub\Karthik_Udemy\SeleniumCSharpNetCore\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Raunak\Documents\GitHub\Karthik_Udemy\SeleniumCSharpNetCore\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\Raunak\Documents\GitHub\Karthik_Udemy\SeleniumCSharpNetCore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll

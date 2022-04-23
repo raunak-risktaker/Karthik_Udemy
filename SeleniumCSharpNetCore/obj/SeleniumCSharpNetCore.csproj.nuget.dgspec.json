@@ -60,6 +60,10 @@
               "target": "Package",
               "version": "[100.0.4896.6000, )"
             },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.69, )"
+            },
             "WebDriverManager": {
               "target": "Package",
               "version": "[2.12.4, )"
