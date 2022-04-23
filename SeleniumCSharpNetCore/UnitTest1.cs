@@ -3,6 +3,7 @@ using System.Threading;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using SeleniumCSharpNetCore.Pages;
 using WebDriverManager;
 using WebDriverManager.DriverConfigs.Impl;
 
@@ -10,16 +11,11 @@ namespace SeleniumCSharpNetCore
 {
     public class Tests : DriverHelper
     {
-        public static ChromeOptions options;
 
         [SetUp]
         public void Setup()
         {
-            options = new ChromeOptions();
-            options.AddArguments("--headless");
-            new DriverManager().SetUpDriver(new ChromeConfig());
-            options.AddArguments("disable-infobars");
-            Driver = new ChromeDriver(@"../../../../SeleniumCSharpNetCore/Driver",options);
+            Driver = new ChromeDriver(@"../../../../SeleniumCSharpNetCore/Driver");
             Driver.Manage().Window.Maximize();
         }
 
@@ -35,6 +31,26 @@ namespace SeleniumCSharpNetCore
             {
                 Driver.Quit();
             }
+        }
+
+        [Test]
+        public void LoginTest()
+        {
+            Driver.Navigate().GoToUrl("http://eaapp.somee.com/");
+            Homepage homepage = new Homepage();
+            LoginPage loginPage = new LoginPage();
+
+            homepage.click_Login();
+            loginPage.EnterUnameAndPwd("Raunak", "Raunak123@");
+            loginPage.click_Submits();
+
+            Assert.IsTrue(homepage.isenable());
+        }
+
+        [TearDown]
+        public void TearDown()
+        {
+            Driver.Quit();
         }
     }
 }
